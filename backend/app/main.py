@@ -68,11 +68,11 @@ async def health():
 
 # Import routers
 from .token_scanner.routes import router as scanner_router
-# from .smart_money.routes import router as smart_money_router
+from .smart_money.routes import router as smart_money_router
 # from .subscription.routes import router as subscription_router
 
 app.include_router(scanner_router, prefix="/api/scan", tags=["Token Scanner"])
-# app.include_router(smart_money_router, prefix="/api/smart-money", tags=["Smart Money"])
+app.include_router(smart_money_router, prefix="/api/smart-money", tags=["Smart Money"])
 # app.include_router(subscription_router, prefix="/api/subscription", tags=["Subscription"])
 
 

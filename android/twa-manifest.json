@@ -1,0 +1,41 @@
+{
+  "packageId": "com.solanaalpha.scanner",
+  "host": "solana-alpha-scanner.vercel.app",
+  "name": "Solana Alpha Scanner",
+  "launcherName": "Alpha Scanner",
+  "display": "standalone",
+  "themeColor": "#9333ea",
+  "backgroundColor": "#0a0a0a",
+  "startUrl": "/",
+  "iconUrl": "https://solana-alpha-scanner.vercel.app/icon-512.png",
+  "maskableIconUrl": "https://solana-alpha-scanner.vercel.app/icon-512.png",
+  "monochromeIconUrl": "https://solana-alpha-scanner.vercel.app/icon-512.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "./signing-key.keystore",
+    "alias": "alpha-scanner"
+  },
+  "appVersionName": "1.0.0",
+  "appVersionCode": 1,
+  "shortcuts": [],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://solana-alpha-scanner.vercel.app/manifest.json",
+  "fallbackType": "customtabs",
+  "enableNotifications": true,
+  "isChromeOSOnly": false,
+  "minSdkVersion": 21,
+  "targetSdkVersion": 33,
+  "orientation": "default",
+  "navigationColor": "#000000",
+  "navigationColorDark": "#000000",
+  "navigationDividerColor": "#000000",
+  "navigationDividerColorDark": "#000000",
+  "enableSiteSettingsShortcut": true,
+  "shareTarget": {},
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "features": {},
+  "fullScopeUrl": "https://solana-alpha-scanner.vercel.app/",
+  "includeSourceCode": false
+}

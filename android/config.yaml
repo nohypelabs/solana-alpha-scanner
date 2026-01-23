@@ -1,0 +1,70 @@
+# Solana dApp Store Submission Configuration
+
+publisher:
+  name: "Your Name"  # TODO: Replace with your name
+  website: "https://solana-alpha-scanner.vercel.app"
+  email: "your-email@example.com"  # TODO: Replace with your email
+
+app:
+  name: "Solana Alpha Scanner"
+  android_package_name: "com.solanaalpha.scanner"
+  urls:
+    support_url: "https://github.com/agds-alt/solana-alpha-scanner"
+    privacy_policy_url: "https://solana-alpha-scanner.vercel.app/privacy"
+    copyright_policy_url: "https://solana-alpha-scanner.vercel.app/copyright"
+
+release:
+  catalog:
+    en_US:
+      name: "Solana Alpha Scanner"
+      short_description: "Scan tokens. Track smart money. Copy profits."
+      full_description: |
+        Avoid rug pulls and find profitable wallets with Solana Alpha Scanner.
+
+        🔍 TOKEN SCANNER
+        - Instant risk analysis for any SPL token
+        - Check holder concentration and distribution
+        - Analyze liquidity and market cap
+        - Detect suspicious patterns and red flags
+        - Get clear verdicts: SAFE, CAUTION, or SCAM
+
+        💰 SMART MONEY TRACKER
+        - Track the most profitable Solana wallets
+        - See real-time trading signals
+        - Monitor buy/sell activity from top traders
+        - Copy trades from proven winners
+        - Leaderboard of best performers
+
+        ⚡ FEATURES
+        - Free unlimited token scans
+        - Professional risk analysis engine
+        - Real-time data from Solana blockchain
+        - Dark mode optimized interface
+        - Mobile-first responsive design
+        - Offline support via PWA technology
+
+        💎 SUBSCRIPTION TIERS
+        Free: Unlimited scans, top 10 leaderboard, 24h delayed signals
+        Pro ($19.99/mo): Real-time signals, track 10 wallets, alerts
+        Whale ($99.99/mo): Unlimited tracking, API access, priority alerts
+
+        🛡️ SECURITY
+        - Non-custodial (we never ask for private keys)
+        - Read-only wallet connections
+        - Best-in-class security practices
+        - Open source backend
+
+        📊 ALWAYS DYOR (Do Your Own Research)
+        This tool provides analysis to help you make informed decisions.
+        All trading involves risk. Never invest more than you can afford to lose.
+
+        Built for Solana Mobile by crypto traders, for crypto traders.
+
+      new_in_version: "v1.0.0 - Initial release: Token Scanner + Smart Money Tracker with real-time Solana blockchain integration"
+
+      category: "FINANCE"
+      # Alternative categories: PRODUCTIVITY, TOOLS
+
+      # Optional fields
+      # min_sdk_version: 21
+      # target_sdk_version: 33

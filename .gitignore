@@ -1,0 +1,85 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Next.js
+.next/
+out/
+.vercel
+node_modules/
+.pnpm-debug.log*
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+coverage/
+
+# Build artifacts
+*.apk
+*.aab
+*.keystore
+release/
+android/app/build/
+
+# Solana
+.anchor/
+target/
+test-ledger/
+
+# Temporary files
+*.tmp
+*.bak
+.cache/
+temp/
+tmp/
+
+# Keys (IMPORTANT - never commit keys!)
+*.pem
+*.key
+*.json.secret
+*-keypair.json
+publisher-keypair.json
